@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>serverAddress</key>
+	<dict>
+		<key>production</key>
+		<dict>
+			<key>baseUrl</key>
+			<string>http://production.com</string>
+			<key>otherAppKey</key>
+			<string>proKey</string>
+		</dict>
+		<key>develop</key>
+		<dict>
+			<key>baseUrl</key>
+			<string>http://test.com</string>
+			<key>otherAppKey</key>
+			<string>testKey</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
