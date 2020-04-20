@@ -18,6 +18,11 @@
 		5599995D2448945E00EBECAA /* ConfiguresUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5599995C2448945E00EBECAA /* ConfiguresUITests.m */; };
 		5599996B2448948B00EBECAA /* AppConfigures.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5599996A2448948B00EBECAA /* AppConfigures.plist */; };
 		5599996F2448971F00EBECAA /* AppConfigureSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5599996E2448971F00EBECAA /* AppConfigureSingleton.m */; };
+		55CF14E0244D40100098641C /* NSObject+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CF14DF244D40100098641C /* NSObject+Model.m */; };
+		55CF14E4244D45150098641C /* StudentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CF14E3244D45150098641C /* StudentModel.m */; };
+		55CF14E7244D45290098641C /* SchoolModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CF14E6244D45290098641C /* SchoolModel.m */; };
+		55CF14EA244D453A0098641C /* GradeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CF14E9244D453A0098641C /* GradeModel.m */; };
+		55CF14ED244D45490098641C /* LessonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CF14EC244D45490098641C /* LessonModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +65,16 @@
 		5599996D2448971F00EBECAA /* AppConfigureSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppConfigureSingleton.h; sourceTree = "<group>"; };
 		5599996E2448971F00EBECAA /* AppConfigureSingleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppConfigureSingleton.m; sourceTree = "<group>"; };
 		55999970244897D100EBECAA /* Single.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Single.h; sourceTree = "<group>"; };
+		55CF14DE244D40100098641C /* NSObject+Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Model.h"; sourceTree = "<group>"; };
+		55CF14DF244D40100098641C /* NSObject+Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Model.m"; sourceTree = "<group>"; };
+		55CF14E2244D45150098641C /* StudentModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StudentModel.h; sourceTree = "<group>"; };
+		55CF14E3244D45150098641C /* StudentModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudentModel.m; sourceTree = "<group>"; };
+		55CF14E5244D45290098641C /* SchoolModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SchoolModel.h; sourceTree = "<group>"; };
+		55CF14E6244D45290098641C /* SchoolModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SchoolModel.m; sourceTree = "<group>"; };
+		55CF14E8244D453A0098641C /* GradeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GradeModel.h; sourceTree = "<group>"; };
+		55CF14E9244D453A0098641C /* GradeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradeModel.m; sourceTree = "<group>"; };
+		55CF14EB244D45490098641C /* LessonModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LessonModel.h; sourceTree = "<group>"; };
+		55CF14EC244D45490098641C /* LessonModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LessonModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +125,8 @@
 		559999342448945900EBECAA /* Configures */ = {
 			isa = PBXGroup;
 			children = (
+				55CF14E1244D44FE0098641C /* ModelTest */,
+				55CF14DD244D3FE70098641C /* NSObject+Model */,
 				5599996C244896EC00EBECAA /* Singleton */,
 				559999352448945900EBECAA /* AppDelegate.h */,
 				559999362448945900EBECAA /* AppDelegate.m */,
@@ -153,6 +170,30 @@
 				55999970244897D100EBECAA /* Single.h */,
 			);
 			path = Singleton;
+			sourceTree = "<group>";
+		};
+		55CF14DD244D3FE70098641C /* NSObject+Model */ = {
+			isa = PBXGroup;
+			children = (
+				55CF14DE244D40100098641C /* NSObject+Model.h */,
+				55CF14DF244D40100098641C /* NSObject+Model.m */,
+			);
+			path = "NSObject+Model";
+			sourceTree = "<group>";
+		};
+		55CF14E1244D44FE0098641C /* ModelTest */ = {
+			isa = PBXGroup;
+			children = (
+				55CF14E2244D45150098641C /* StudentModel.h */,
+				55CF14E3244D45150098641C /* StudentModel.m */,
+				55CF14E5244D45290098641C /* SchoolModel.h */,
+				55CF14E6244D45290098641C /* SchoolModel.m */,
+				55CF14E8244D453A0098641C /* GradeModel.h */,
+				55CF14E9244D453A0098641C /* GradeModel.m */,
+				55CF14EB244D45490098641C /* LessonModel.h */,
+				55CF14EC244D45490098641C /* LessonModel.m */,
+			);
+			path = ModelTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,11 +327,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55CF14EA244D453A0098641C /* GradeModel.m in Sources */,
 				5599993D2448945900EBECAA /* ViewController.m in Sources */,
+				55CF14E7244D45290098641C /* SchoolModel.m in Sources */,
+				55CF14ED244D45490098641C /* LessonModel.m in Sources */,
 				559999372448945900EBECAA /* AppDelegate.m in Sources */,
 				559999482448945E00EBECAA /* main.m in Sources */,
+				55CF14E0244D40100098641C /* NSObject+Model.m in Sources */,
 				5599996F2448971F00EBECAA /* AppConfigureSingleton.m in Sources */,
 				5599993A2448945900EBECAA /* SceneDelegate.m in Sources */,
+				55CF14E4244D45150098641C /* StudentModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
