@@ -23,6 +23,7 @@
 		55CF14E7244D45290098641C /* SchoolModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CF14E6244D45290098641C /* SchoolModel.m */; };
 		55CF14EA244D453A0098641C /* GradeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CF14E9244D453A0098641C /* GradeModel.m */; };
 		55CF14ED244D45490098641C /* LessonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CF14EC244D45490098641C /* LessonModel.m */; };
+		55FFBB02244E8F3F0086A6BD /* LocalData in Resources */ = {isa = PBXBuildFile; fileRef = 55FFBB01244E8F3F0086A6BD /* LocalData */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		55CF14E9244D453A0098641C /* GradeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradeModel.m; sourceTree = "<group>"; };
 		55CF14EB244D45490098641C /* LessonModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LessonModel.h; sourceTree = "<group>"; };
 		55CF14EC244D45490098641C /* LessonModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LessonModel.m; sourceTree = "<group>"; };
+		55FFBB01244E8F3F0086A6BD /* LocalData */ = {isa = PBXFileReference; lastKnownFileType = folder; path = LocalData; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 				55CF14E1244D44FE0098641C /* ModelTest */,
 				55CF14DD244D3FE70098641C /* NSObject+Model */,
 				5599996C244896EC00EBECAA /* Singleton */,
+				55FFBB01244E8F3F0086A6BD /* LocalData */,
 				559999352448945900EBECAA /* AppDelegate.h */,
 				559999362448945900EBECAA /* AppDelegate.m */,
 				559999382448945900EBECAA /* SceneDelegate.h */,
@@ -302,6 +305,7 @@
 				559999452448945E00EBECAA /* LaunchScreen.storyboard in Resources */,
 				559999422448945E00EBECAA /* Assets.xcassets in Resources */,
 				559999402448945900EBECAA /* Main.storyboard in Resources */,
+				55FFBB02244E8F3F0086A6BD /* LocalData in Resources */,
 				5599996B2448948B00EBECAA /* AppConfigures.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
